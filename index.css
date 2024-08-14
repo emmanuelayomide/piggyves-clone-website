@@ -1,0 +1,2003 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+
+
+}
+
+
+
+
+body {
+  font-family: "Sora", sans-serif;
+  
+  font-style: normal;
+
+
+}
+
+/* animation section */
+
+#dive {
+    opacity: 0; /* Initially hidden */
+    transform: translateY(50px); /* Move content down */
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+  
+    padding: 20px;
+    margin: 30px auto;
+    background-color: #f4f4f4;
+ 
+
+   
+}
+
+#dive.visible {
+    opacity: 1;
+    transform: translateY(0); /* Return to original position */
+}
+
+
+
+
+
+
+
+
+
+/* end of animation  */
+/* the nav main */
+
+.maingrid{
+ display: flex;
+ justify-content: center;
+ gap: 90px;
+ padding: 20px;
+align-items: center;
+background-color:#fff;
+position: sticky;
+
+
+}
+nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+    
+  
+}
+
+nav > ul li{
+display: inline-block;
+z-index: 1;
+
+    
+}
+nav >ul> li >a{
+    text-decoration: none;
+    padding: 20px;
+    font-size: 18px;
+    color:#3F5162;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+}
+.grid001 li{
+    list-style-type: none;
+}
+
+.grid2{
+    display: flex;
+    gap: 30px;
+}
+.grid2 li{
+    list-style: none;
+}
+.grid3{
+    display: none;
+}
+
+
+
+.btn1{
+    color: #353e4c;
+    background-color: #ffffffa7;
+    border: 1px solid rgb(0, 0, 0) ;
+    border-radius: 8px;
+    padding:10px 20px 10px 20px;
+    cursor: pointer;
+    font-size: 15px;
+}
+.btn2{
+    color: #fff;
+    background-color: #122231;
+   
+    border-radius: 8px;
+    padding:10px 20px 10px 20px;
+    cursor: pointer;
+    font-size: 15px;
+}
+.btn1:hover{
+    background-color: rgb(0, 0, 0);
+}
+.btn2:hover{
+    background-color: rgb(0, 0, 0);
+}
+.btn2{
+    color: #fff;
+    background-color: #122231;
+   
+    border-radius: 8px;
+    padding:10px 20px 10px 20px;
+    cursor: pointer;
+    font-size: 15px;
+}
+.contentbelow{
+    position: relative;
+    z-index:-1;
+}
+/* dropdown content */
+.dropdownmwnuforsave{
+    width: 410px;
+   overflow-y: hidden;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:flex-start;
+   display: none;
+    position:absolute;
+    gap:50px;
+    background-color:#fff;
+    box-shadow: 4px 4px 4px 4px rgb(210, 226, 209);
+    z-index: 999;
+    padding: 40px;
+    border-radius: 15px;
+
+    
+
+}
+nav >ul> li:hover .dropdownmwnuforsave{
+    display: flex;
+    z-index: 999;
+    overflow: visible;
+    z-index: 999;
+}
+
+
+.divcircle1{
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+}
+.divcircle1 > b > a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    
+}
+.divcircle1 > b > a:hover{
+    color:#2971DA; ;
+    text-decoration: none;
+    
+    
+}
+.divcircle2{
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+}
+.divcircle2 > b > a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    
+    
+}
+.divcircle2 > b > a:hover{
+    color:  #3FC47B;
+    text-decoration: none;
+ 
+    
+}
+.divcircle3{
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+}
+.divcircle3 > b > a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    
+    
+}
+.divcircle3 > b > a:hover{
+    color: #122231;
+    text-decoration: none;
+
+    
+}
+.divcircle4{
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+}
+.divcircle4 > b > a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    
+    
+}
+.divcircle4 > b > a:hover{
+    color:  #F096C5;
+    text-decoration: none;
+  
+    
+}
+.divcircle5{
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+}
+.divcircle5 > b > a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    
+    
+}
+.divcircle5 > b > a:hover{
+    color: #F096C5;
+    text-decoration: none;
+ 
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* the style for the second second section */
+.flextheContainer{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    background-color:#F2F7F8;
+    
+}
+.main_container{
+    display: grid;
+    grid-template-columns: 0.4fr 0.6fr;
+    grid-template-rows: 0.1fr 0.1fr;
+    gap: 120px;
+ 
+ 
+
+
+}
+
+
+.container1{
+    margin-top: 50px;
+  
+   
+}
+#thesmallsubtext{
+    font-weight:lighter;
+}
+.container1 li{
+    list-style: none;
+    display: inline-block;
+
+
+}
+.container1 h1{
+    
+        margin-top: 30px;color: #122231;
+       font-size: 40px;
+       font-weight:900;
+     
+}
+.container1 p{
+    
+    margin-top: 30px;
+    font-size: 20px;
+   
+}
+
+
+
+.btn2icon{
+    color: #fff;
+    background-color: #122231;
+    border: 1px solid rgb(0, 0, 0) ;
+    border-radius: 8px;
+    padding:10px 20px 10px 20px;
+    cursor: pointer;
+    font-size: 15px;
+    margin-top: 30px;
+}
+.btn1icon{
+    color: #fff;
+    background-color: #122231;
+    border: 1px solid rgb(0, 0, 0) ;
+    border-radius: 8px;
+    padding:10px 20px 10px 20px;
+    cursor: pointer;
+    font-size: 15px;
+    margin-top: 30px;
+}
+.btn2icon:hover{
+    background-color: rgb(0, 0, 0);
+    transform: translateY(-5px);
+    transition: 2s;
+}
+.btn1icon:hover{
+    background-color: rgb(0, 0, 0);
+    transform: translateY(-5px);
+    transition: 1s;
+    
+}
+.imageovertext{
+    width: 500px;
+    border: 5px solid #706a6aaa;
+    border-radius: 20px;
+    box-shadow: 4px 4px 4px 4px #7904041c;
+  
+  
+  
+ 
+   
+    
+}
+@keyframes moveupanddown{
+    0% {
+        transform: translateY(0);
+      }
+      50% {
+        transform: translateY(20px); /* Adjust the distance of movement */
+      }
+      100% {
+        transform: translateY(0);
+    
+}
+}
+.container2{
+    animation-name: moveupanddown;
+    animation-duration:5s;
+    animation-iteration-count: infinite;
+    position: relative;
+ 
+
+}
+.imagessize1{
+    width: 200px;
+    border-radius: 10px;
+    position: absolute;
+    top: 90px;
+    left: -90px;
+    cursor: pointer;
+   
+
+}
+.imagessize2{
+    width: 200px;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 90px;
+    left: -90px;
+    cursor: pointer;
+
+
+}
+.imagessize3{
+    width: 200px;
+    border-radius: 10px;
+    position: absolute;
+    bottom: -25px;
+    right: 300px;
+    cursor: pointer;
+}
+.imagessize4{
+    width: 200px;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 120px;
+    right: 90px;
+    cursor: pointer;
+
+}
+.imagessize5{
+    width: 200px;
+    position: absolute;
+    border-radius: 10px;
+    position: absolute;
+    top: 90px;
+    right: 90px;
+    cursor: pointer;
+
+}
+/* section 3 */
+.iconAndtext{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    background-color:#F2F7F8;
+ 
+   
+    
+}
+.svg{
+
+  
+    border-radius: 30px;
+   background-color: #fff;
+    padding: 40px 40px 40px 40px;
+    display: inline-block;
+  
+}
+
+    
+    
+
+.textfticon >h2{
+    font-weight: 900;
+    font-size: 23px;
+}
+.textfticon > .elementtext{
+    font-size: 18px;
+    margin-top: 25px;
+    font-weight:300;
+}
+.link{
+    margin-top: 10px;
+}
+.more{
+    color:rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 300;
+    padding: 5px 10px;
+    overflow: hidden;
+    position: relative;
+   
+
+}
+.more::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color:#353e4c; 
+    z-index: -1;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.3s ease; 
+}
+
+
+.more:hover::before {
+    transform: scaleX(1); 
+}
+/* lot of grids */
+#flexthegrid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    background-color:#F2F7F8;
+   padding-bottom: 70px;
+}
+.lotofgrids{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 30px;
+    margin-top: 120px;
+
+}
+
+.gridsub1{
+    padding: 40px;
+
+    border-radius:20px;
+    height: 430px;
+    width: 550px;
+    text-align: center;
+}
+.gridsub1 h1{
+    font-weight: 900;
+    font-size: 40px;
+    color: #111C29;
+    
+
+}
+.gridsub1 p{
+    margin-top: 30px;
+    font-size: 25px;
+  
+}
+.gridsub2{
+    padding: 40px;
+    background-color:#fff;
+    box-shadow: 4px 4px 4px 4px solid #fff;
+    border-radius:20px;
+    height: 430px;
+    width: 550px;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+.iphoneimage{
+    width: 250px;
+    position: absolute;
+    right: -100%;
+    top: -100%;
+    opacity: 0;
+    transition: right 0.3s ease, top 0.3s ease, opacity 0.3s ease;
+
+  
+}
+.gridsub2:hover{
+    background-color:#2971DA;
+    color: #fff;
+}
+.gridsub2:hover .iphoneimage{
+    top: 42%;
+    right: 7%;
+    opacity: 1;
+}
+.gridsub2:not(:hover) .iphoneimage{
+    opacity: 0;
+    right: -100%;
+    top: -100%;
+}
+
+
+.gridsub2:hover h1{
+    color: #fff;
+}
+.gridsub2:hover .more2{
+    color: #fff;
+
+}
+.gridsub2:hover .linsk{
+    color: #fff;
+}
+.gridsub2 p{
+    margin-top: 10px;
+    font-size: 20px;
+  
+    color: #122231;
+    font-weight: 200;
+   
+}
+.gridsub2:hover p{
+    color: #fff;
+}
+.gridsub2 .linsk{
+  margin-top: 190px;
+    text-decoration: none;
+    color: #2971DA;
+}
+.gridsub2 .more2{
+    
+      color: #3296FF;
+      text-decoration: none;
+  }
+/* the beginning of the third grid */
+
+
+
+  .gridsub3{
+    padding: 40px;
+    background-color:#fff;
+    box-shadow: 4px 4px 4px 4px solid #fff;
+    border-radius:20px;
+    height: 430px;
+    width: 550px;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+.iphoneimage3{
+    width: 250px;
+    position: absolute;
+    right: -100%;
+    top: -100%;
+    opacity: 0;
+    transition: right 0.3s ease, top 0.3s ease, opacity 0.3s ease;
+
+  
+}
+.gridsub3:hover{
+    background-color: #3296FF;
+    color: #fff;
+}
+.gridsub3:hover .iphoneimage3{
+    top: 42%;
+    right: 7%;
+    opacity: 1;
+}
+.gridsub3:not(:hover) .iphoneimage3{
+    opacity: 0;
+    right: -100%;
+    top: -100%;
+}
+
+
+
+.gridsub3 h1{
+    font-weight: 900;
+    font-size: 40px;
+    color: #3296FF;
+    
+
+}
+.gridsub3 .linsk3{
+    margin-top: 180px;
+    margin-bottom: 4px;
+      text-decoration: none;
+      color: #3296FF;
+  }
+  .gridsub3 .more3{
+ 
+        color: #3296FF;
+        text-decoration: none;
+    }
+
+
+   
+
+
+  
+.gridsub3:hover h1{
+    color: #fff;
+}
+.gridsub3:hover .more3{
+    color: #fff;
+
+}
+.gridsub3:hover .linsk3{
+    color: #fff;
+}
+
+
+.gridsub3 p{
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 200;
+   
+    font-weight: 200;
+   
+}
+
+/* the fourth design .......................................................
+ */
+
+ .gridsub4{
+    padding: 40px;
+    background-color:#fff;
+    box-shadow: 4px 4px 4px 4px solid #fff;
+    border-radius:20px;
+    height: 430px;
+    width: 550px;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+.iphoneimage4{
+    width: 250px;
+    position: absolute;
+    right: -100%;
+    top: -100%;
+    opacity: 0;
+    transition: right 0.3s ease, top 0.3s ease, opacity 0.3s ease;
+
+  
+}
+.gridsub4:hover{
+    background-color: #3FC47B;
+    color: #fff;
+}
+.gridsub4:hover .iphoneimage4{
+    top: 42%;
+    right: 7%;
+    opacity: 1;
+}
+.gridsub4:not(:hover) .iphoneimage4{
+    opacity: 0;
+    right: -100%;
+    top: -100%;
+}
+
+
+
+.gridsub4 h1{
+    font-weight: 900;
+    font-size: 35px;
+    color: #3FC47B;
+    
+
+}
+.gridsub4 .linsk4{
+    margin-top: 180px;
+    margin-bottom: 4px;
+      text-decoration: none;
+      color: #3FC47B;
+  }
+  .gridsub4 .more4{
+      
+        color: #3FC47B;
+        text-decoration: none;
+    }
+  
+.gridsub4:hover h1{
+    color: #fff;
+}
+.gridsub4:hover .more4{
+    color: #fff;
+
+}
+.gridsub4:hover .linsk4{
+    color: #fff;
+}
+.gridsub4 p{
+    margin-top: 27px;
+    font-size: 20px;
+    font-weight: 200;
+   
+}
+
+
+/* the begining of the fifth grid section */
+
+
+.gridsub5{
+    padding: 40px;
+    background-color:#fff;
+    box-shadow: 4px 4px 4px 4px solid #fff;
+    border-radius:20px;
+    height: 430px;
+    width: 550px;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+.iphoneimage5{
+    width: 250px;
+    position: absolute;
+    right: -100%;
+    top: -100%;
+    opacity: 0;
+    transition: right 0.3s ease, top 0.3s ease, opacity 0.3s ease;
+
+  
+}
+.gridsub5:hover{
+    background-color: #F096C5;
+    color: #fff;
+}
+.gridsub5:hover .iphoneimage5{
+    top: 42%;
+    right: 7%;
+    opacity: 1;
+}
+.gridsub5:not(:hover) .iphoneimage5{
+    opacity: 0;
+    right: -100%;
+    top: -100%;
+}
+
+
+
+.gridsub5 h1{
+    font-weight: 900;
+    font-size: 40px;
+    color: #F096C5;
+    
+
+}
+.gridsub5 .linsk5{
+    margin-top: 190px;
+    margin-bottom: 4px;
+      text-decoration: none;
+      color: #F096C5;
+  }
+  .gridsub5 .more5{
+      
+        color: #F096C5;
+        text-decoration: none;
+    }
+  
+.gridsub5:hover h1{
+    color: #fff;
+}
+.gridsub5:hover .more5{
+    color: #fff;
+
+}
+.gridsub5:hover .linsk5{
+    color: #fff;
+}
+.gridsub5 p{
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 200;
+   
+}
+
+
+/* the last grid */
+.gridsub6{
+    padding: 40px;
+    background-color:#fff;
+    box-shadow: 4px 4px 4px 4px solid #fff;
+    border-radius:20px;
+    height: 430px;
+    width: 550px;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+.iphoneimage6{
+    width: 250px;
+    position: absolute;
+    right: -100%;
+    top: -100%;
+    opacity: 0;
+    transition: right 0.3s ease, top 0.3s ease, opacity 0.3s ease;
+
+  
+}
+.gridsub6:hover{
+    background-color: #122231;
+    color: #fff;
+}
+.gridsub6:hover .iphoneimage6{
+    top: 42%;
+    right: 7%;
+    opacity: 1;
+}
+.gridsub6:not(:hover) .iphoneimage6{
+    opacity: 0;
+    right: -100%;
+    top: -100%;
+}
+
+
+
+.gridsub6 h1{
+    font-weight: 900;
+    font-size: 40px;
+    color: #122231;
+    
+
+}
+.gridsub6 .linsk6{
+    margin-top: 190px;
+    margin-bottom: 4px;
+      text-decoration: none;
+      color: #122231;
+  }
+  .gridsub6 .more6{
+      
+        color: #122231;
+        text-decoration: none;
+    }
+  
+.gridsub6:hover h1{
+    color: #fff;
+}
+.gridsub6:hover .more6{
+    color: #fff;
+
+}
+.gridsub6:hover .linsk6{
+    color: #fff;
+}
+.gridsub6 p{
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 200;
+   
+}
+/*the center image and text on the left side with sub headings
+  */
+  #flexcenter{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    background-color: #fff;
+    max-width: 100%;
+
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+    margin-bottom: 150px;
+
+
+  }
+  .sectionsub{
+  
+  }
+  .diverse{
+    font-size: 45px;
+   color: #111C29;
+  }
+  .subtextfield{
+    color: #111C29;
+    font-size:25px;
+  }
+
+.textandimageright{
+    background-color: #7913E5;
+    padding: 40px;
+    width: 50%;
+    height: 500px;
+    border-radius: 20px;
+    position: relative;
+  
+}
+
+  .earn{
+    font-weight: 900;
+    font-size: 30px;
+  color: #fff;
+  margin-top: 30px;
+  padding-left: 50px;
+
+  }
+  .invest{
+  color: #fff;
+    font-size: 20px;
+    margin-top: 30px;
+   padding-left: 50px;
+   font-weight: 200;
+  }
+  .iphoneimage7{
+    width: 400px;
+    position: absolute;
+    right: 5%;
+    bottom: 1px;
+  
+  }
+.linsk7{
+    margin-top: 150px;
+    color: #fff;
+    padding-left: 50px;
+    font-size: 20px;
+    font-weight: 500;
+  
+   
+
+}
+.more6{
+    text-decoration: none;
+    color: #fff;
+}
+.sectionwithtextandvideo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 40px;
+}
+
+.sectiontextonly{
+    text-align: center;
+}
+
+.sectionvideo{
+    display: flex;
+    justify-content: center;
+    flex-wrap:wrap;
+    gap: 10px;
+    width: 50%;
+    height:auto;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: rgb(0, 0, 0);
+}
+.sectionvideo > iframe{
+    border-radius: 20px;
+    overflow: hidden;
+}
+.sectiontextonly h1{
+    color: #111C29;
+    font-size: 45px;
+    font-weight: 700;
+}
+.sectiontextonly p{
+    color: #111C29;
+    font-size: 20px;
+}
+.sectionid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+.sectionid1 img{
+    width: 500px;
+}
+.sectionid2{
+    color: #111C29;
+    margin-top: 30px;
+    position: relative;
+}
+.r1{
+    width:70px;
+    height: 70px;
+    border-radius: 100%;
+    margin-bottom: 30px;
+    position: absolute;
+    bottom: 80%;
+    left:1%;
+    border:5px solid #e5c7c7;
+    cursor: pointer;
+   
+}
+.r1:hover{
+    z-index: 1;
+    transition: 2s;
+}
+.r1:hover{
+    z-index: 1;
+    transition: ease 2s;
+}
+.r2{
+    width:70px;
+    height: 70px;
+    border-radius: 100%;
+    margin-bottom: 30px;
+    position: absolute;
+    bottom: 80%;
+    left:10%;
+    border:5px solid #e5c7c7;
+   
+    cursor: pointer;
+}
+.r2:hover{
+    z-index: 1;
+    transition: ease 2s;
+}
+.r3{
+    width:70px;
+    height: 70px;
+    border-radius: 100%;
+    margin-bottom: 30px;
+    position: absolute;
+    bottom: 80%;
+    left:20%;
+    border:5px solid #e5c7c7;
+    cursor: pointer;
+   
+   
+}
+.r3:hover{
+    z-index: 1;
+    transition: ease 2s;
+}
+.r4{
+    width:70px;
+    height: 70px;
+    border-radius: 100%;
+    margin-bottom: 30px;
+    position: absolute;
+    bottom: 80%;
+    left:30%;
+    border:5px solid #e5c7c7;
+    cursor: pointer;
+  
+   
+}
+.r4:hover{
+    z-index: 1;
+    transition: ease 2s;
+}
+.sectionid2 h1{
+    font-size: 30px;
+    font-weight: 800;
+}
+.sectionid2 li{
+    list-style-type: none;
+    display: inline-block;
+   
+}
+.sectionid2 .lib{
+    list-style-type: none;
+    display: inline-block;
+    padding-right: 20px;
+}
+.googleplay{
+    
+    border: 1px solid #fff;
+    display: inline-block;
+    color: #122231;
+    border-radius: 8px;
+    padding:10px 20px 10px 20px;
+    cursor: pointer;
+    font-size: 15px;
+    margin-top: 30px;box-shadow: 4px 4px 4px 4px #fff;
+
+}
+.googleplay:hover{
+    transform: translateY(-10px);
+    transition: ease-in-out 2s;
+}
+#flexthelogoandtext{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 150px;
+}
+.sectionlogo {
+  
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.sectionlogo li{
+    list-style-type: none;
+}
+.sectionlogo img{
+    width: 200px;
+   
+}
+#puttocenter{
+    display: flex;
+    justify-content: center;
+
+    align-items: center;
+ 
+}
+.centergrid{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.semilast{
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr 0.5fr 0.5fr 1fr;
+    grid-template-rows: 1fr;
+    grid-gap:100px;
+    margin-top: 100px;
+}
+
+
+.row1{
+  
+}
+.row1 img{
+    width: 200px;
+    
+}
+.row2{
+    
+}
+.row2 p{
+    font-weight: 400;
+    color: rgb(0, 0, 0);
+}
+.row2 li{
+    padding: 5px;
+    list-style-type: none;
+
+}
+.row2 a{
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+}
+.row2 a:hover{
+    color: #2971DA;
+
+}
+.row3{
+
+}
+.row3 p{
+    font-weight: 400;
+    color: rgb(0, 0, 0);
+}
+.row3 li{
+    padding: 5px;
+    list-style-type: none;
+
+}
+.row3 a{
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+}
+.row3 a:hover{
+    color: #2971DA;
+
+}
+
+
+
+
+.row4{
+    
+}
+.row4 p{
+    font-weight: 400;
+    color: rgb(0, 0, 0);
+}
+.row4 li{
+    padding: 5px;
+    list-style-type: none;
+
+}
+.row4 a{
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+}
+.row4 a:hover{
+    color: #2971DA;
+
+}
+
+.row5 .fab{
+
+  
+  
+  
+
+}
+.row5 a{
+   
+    text-decoration: none;
+    color: #111C29;
+    padding-right: 20px;
+    font-size: 20px;
+
+}
+.row5 .fab:hover{
+    transform: translateY(-10px);
+    transition: ease-in-out 1s;
+}
+.rightalignment{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: end;
+  
+    margin-top: 20px;
+}
+.rightalignment li{
+  
+    list-style-type: none;
+
+}
+.rightalignment a{
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 14px;
+    color: rgb(0, 0, 0);
+}
+.rightalignment a:hover{
+    color: #2971DA;
+
+}
+.footerline{
+   background-color:#F2F7F8;
+   display: flex;
+   flex-direction: column;
+   padding-left: 300px;
+   padding-bottom: 100px;
+
+
+   gap: 20px;
+   padding-top: 20px;
+   
+    
+}
+.footerline li{
+    list-style-type:none;
+}
+.footerline .lin{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 12px;
+    padding: 12px;
+    font-weight: 200;
+}
+.footerline .linkonly{
+      color: rgb(25, 13, 194);
+    text-decoration: none;
+    font-size: 12px;
+    padding: 12px;
+    font-weight: 300;
+}
+hr{
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 50px auto;
+}
+
+/* responsive Design */
+
+
+@media (max-width:992px){
+ 
+  
+   /* the navigation redesign */
+   .maingrid{
+    display: block;
+    position: relative;
+    height: auto;
+ 
+  
+
+   }
+   nav{
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    gap: 40px;
+    
+  
+}
+nav > ul li{
+    display: block;
+    z-index: 1;
+    margin-top: 50px;
+    
+        
+    }
+nav >ul> li >a{
+    text-decoration: none;
+  
+    font-size: 18px;
+    color:#3F5162;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+}
+.grid2{
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.btn1{
+    padding: 10px;
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+}
+.btn2{
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+}
+    /* .grid3{
+        display:block;
+        position: absolute;
+        top: 0;
+        right:0;
+    }
+    .grid001{
+        position: absolute;
+        top: 0;
+        left: 0;
+    } */
+    .flextheContainer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      
+        
+    }
+   
+   
+
+  .main_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+   
+  
+
+  
+  }
+  .dropdownmwnuforsave{
+    width: 200px;
+   overflow-y: hidden;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:flex-start;
+   display: none;
+    position:absolute;
+    gap:50px;
+    background-color:#fff;
+    box-shadow: 4px 4px 4px 4px rgb(210, 226, 209);
+    z-index: 999;
+    padding: 40px;
+    border-radius: 15px;
+
+    
+
+}
+  .contentbelow{
+  
+  }
+
+  /* .......................... moving over images  */
+
+
+  .imagessize1{
+    width: 130px;
+    border-radius: 10px;
+    position: absolute;
+    top: 50px;
+    left: -40px;
+    cursor: pointer;
+   
+
+}
+.imagessize2{
+    width: 130px;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 80px;
+    left: -40px;
+    cursor: pointer;
+
+
+}
+.imagessize3{
+    width: 130px;
+    border-radius: 10px;
+    position: absolute;
+    bottom: -20px;
+    right:90px;
+    cursor: pointer;
+}
+.imagessize4{
+    width: 130px;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 90px;
+    right: -40px;
+    cursor: pointer;
+
+}
+.imagessize5{
+    width: 130px;
+    position: absolute;
+    border-radius: 10px;
+    position: absolute;
+    top: 50px;
+    right: -30px;
+    cursor: pointer;
+
+}
+
+
+  /* ........................................... */
+
+
+  .container1{
+    margin-top: 10px;
+    text-align: center;
+    padding: 20px;
+  
+   
+}
+#thesmallsubtext{
+    font-weight:lighter;
+}
+.container1 li{
+    list-style: none;
+    display: inline-block;
+
+
+}
+.container1 h1{
+    
+        margin-top: 30px;
+        color: #122231;
+       font-size: 40px;
+       font-weight:900;
+     
+}
+.container1 p{
+    
+    margin-top: 30px;
+    font-size: 20px;
+   
+}
+
+  .imageovertext{
+    width: 300px;
+    border: 5px solid #706a6aaa;
+    border-radius: 20px;
+    box-shadow: 4px 4px 4px 4px #7904041c;
+  
+  
+  
+ 
+   
+    
+}
+
+/* review image size */
+
+
+
+  .iconAndtext{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    background-color:#F2F7F8;
+    padding-top: 40px;
+ 
+   
+    
+}
+.textfticon{
+    text-align: center;
+    padding-top: 2px;
+}
+ 
+
+
+
+.sectionid{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+.sectionid1 .reviewimg{
+    width: 300px;
+}
+.sectionid2{
+    color: #111C29;
+    margin-top: 30px;
+    position: relative;
+}
+.semilast{
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr ;
+    grid-template-rows: 1fr;
+    grid-gap:100px;
+    margin-top: 100px;
+}
+
+
+/* the 15800 image and earn up to 25% message  */
+
+.textandimageright{
+    background-color: #7913E5;
+    padding: 30px;
+    width: 80%;
+    height: 700px;
+    border-radius: 20px;
+  
+}
+
+  .earn{
+    font-weight: 900;
+    font-size: 30px;
+    color: #fff;
+    margin-top: 30px;
+    padding-left: 50px;
+
+  }
+  .invest{
+  color: #fff;
+    font-size: 20px;
+    margin-top: 30px;
+  
+   font-weight: 200;
+  }
+  .iphoneimage7{
+  
+   position: absolute;
+  top: 74%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 100%;
+   
+    
+    
+   
+ 
+   
+  
+  }
+.linsk7{
+   
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 30px;
+  
+   
+
+}
+.more6{
+    text-decoration: none;
+    color: #fff;
+}
+
+.sectiontextonly{
+    text-align: center;
+}
+.sectiontextonly h1{
+    font-size: 20px;
+}
+
+.sectionvideo{
+    display: flex;
+    justify-content: center;
+    flex-wrap:wrap;
+    gap: 10px;
+    width: 80%;
+    height:auto;
+    padding:10px;
+    border-radius: 20px;
+    background-color: rgb(0, 0, 0);
+}
+.sectionvideo > iframe{
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+
+.sectionid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+.sectionid1 img{
+    width: 500px;
+}
+.sectionid2{
+    color: #111C29;
+    margin-top: 90px;
+    position: relative;
+}
+.sectionlogo img{
+    width: 180px;
+   
+}
+.semilast{
+    display:flex;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    justify-content:center;
+}
+.footerline{
+    background-color:#F2F7F8;
+    display: flex;
+    flex-direction: column;
+    padding-left: 12px;
+   
+    padding-bottom:50pxpx;
+ 
+ 
+    gap: 20px;
+    padding-top: 20px;
+    
+     
+ }
+ .footerline li{
+     list-style-type:none;
+ }
+ .footerline .lin{
+     color: rgb(0, 0, 0);
+     text-decoration: none;
+     font-size: 10px;
+     padding: 12px;
+     font-weight: 200;
+ }
+ .footerline .linkonly{
+       color: rgb(25, 13, 194);
+     text-decoration: none;
+     font-size: 10px;
+     padding: 12px;
+     font-weight: 300;
+ }
+ hr{
+     width: 70%;
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+     margin: 50px auto;
+ }
+
+ #flexcenter{
+    margin-top: 20px;
+ }
+ .sectionsub{
+    text-align: center;
+  }
+  .diverse{
+    font-size: 30px;
+   color: #111C29;
+  }
+  .subtextfield{
+    color: #111C29;
+    font-size:15px;
+    margin-top: 10px;
+  }
+
+
+  /* LOTS OF GRIDS REDESIGN .......................
+  ...........................................
+  .....................................
+  ................................. */
+
+
+  #flexthegrid{
+    display: flex;
+     justify-content: center;
+     align-items: center;
+     max-width: 100%;
+    
+
+ 
+ 
+ 
+
+ 
+}
+
+  .lotofgrids{
+    display: grid;
+    grid-template-columns:1fr;
+    grid-template-rows:1fr;
+
+
+    gap: 30px;
+    margin-top: 120px;
+}
+
+}
+/* main redesign of the lots of grids  */
+@media (max-width:556px){
+/* first of first */
+    .gridsub1{
+        padding: 50px;
+        height: 430px;
+        width: 330px;
+    }
+    
+.gridsub1 h1{
+    font-size: 20px;
+
+    
+
+}
+.gridsub1 p{
+   
+    font-size: 20px;
+  
+}
+
+    .gridsub2{
+        padding: 50px;
+        height: 430px;
+        width: 330px;
+    }
+   .iphoneimage{
+    position: absolute;
+    width: 250px;
+    bottom: -100%;
+    right:-100%;
+    opacity: 1;
+    margin-top: 30px;
+    
+      
+    }
+   
+    .gridsub2:hover .iphoneimage{
+        right: 20px;
+        bottom: 1px;
+    }
+
+   
+    .gridsub2 p{
+        margin-top: 10px;
+        margin-bottom: 20px;
+        font-size: 15px;
+      
+        color: #122231;
+        font-weight: 200;
+    }
+       /* 3rd of third */
+       .gridsub3{
+        padding: 50px;
+        height: 430px;
+        width: 330px;
+    }
+    .gridsub3 h1{
+        font-size: 30px;
+    }
+   .iphoneimage3{
+    position: absolute;
+    width: 250px;
+    bottom: -100%;
+    right:-100%;
+    opacity: 1;
+    margin-top: 30px;
+    
+      
+    }
+   
+    .gridsub3:hover .iphoneimage{
+        right: 20px;
+        bottom: 1px;
+    }
+
+   
+    .gridsub3 p{
+        margin-top: 10px;
+        margin-bottom: 20px;
+        font-size: 15px;
+      
+      
+        font-weight: 200;
+    }
+       /* 4th of fourth */
+       .gridsub4{
+        padding: 50px;
+        height: 430px;
+        width: 330px;
+    }
+    .gridsub4 h1{
+        font-size: 30px;
+    }
+   .iphoneimage4{
+    position: absolute;
+    width: 250px;
+    bottom: -100%;
+    right:-100%;
+    opacity: 1;
+    margin-top: 30px;
+    
+      
+    }
+   
+    .gridsub4:hover .iphoneimage{
+        right: 20px;
+        bottom: 1px;
+    }
+
+   
+    .gridsub4 p{
+        margin-top: 10px;
+        margin-bottom: 20px;
+        font-size: 15px;
+      
+      
+        font-weight: 200;
+    }
+       /* 5th of fifth */
+       .gridsub5{
+        padding: 50px;
+        height: 430px;
+        width: 330px;
+    }
+    .gridsub5 h1{
+        font-size: 30px;
+    }
+   .iphoneimage5{
+    position: absolute;
+    width: 250px;
+    bottom: -100%;
+    right:-100%;
+    opacity: 1;
+    margin-top: 30px;
+    
+      
+    }
+   
+    .gridsub5:hover .iphoneimage{
+        right: 20px;
+        bottom: 1px;
+    }
+
+   
+    .gridsub5 p{
+        margin-top: 10px;
+        margin-bottom: 20px;
+        font-size: 15px;
+      
+      
+        font-weight: 200;
+    }
+       
+  /* 6th of sixth */
+  .gridsub6{
+    padding: 50px;
+    height: 430px;
+    width: 330px;
+}
+.gridsub6 h1{
+    font-size: 30px;
+}
+.iphoneimage6{
+position: absolute;
+width: 250px;
+bottom: -100%;
+right:-100%;
+opacity: 1;
+margin-top: 30px;
+
+  
+}
+
+.gridsub6:hover .iphoneimage{
+    right: 20px;
+    bottom: 1px;
+}
+
+
+.gridsub6 p{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 15px;
+  
+  
+    font-weight: 200;
+}
+   
+
+  
+  
+
+}
+
+
+
+
+
+
+
+
